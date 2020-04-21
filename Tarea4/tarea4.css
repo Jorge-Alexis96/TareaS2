@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;  
+    background-color: #e8e7e7;
+    padding-top: 5%;
+    
+}
+
+.cuadro {
+    margin: 10px auto 0px auto;
+    padding-top: 5%;
+    height: 70vh;
+    width: 70vh;
+    border-radius: 2%;
+    background-color: #ffffff;
+}
+
+.imagen {
+    margin: 0px auto 0px auto;
+    height: 25vh;
+    width: 25vh;
+    background-image: url(https://via.placeholder.com/300x300);
+    border-radius: 50%;
+}
+
+.titulo {
+    margin-top: 5%;
+    text-align: center;
+    color: #3584c7;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 400;
+    font-size: 200%;
+}
+
+.span {
+    margin-top: 3%;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+.span-1 {
+    color: #6e736e;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 300;
+    font-size: 150%;
+}
+
+.social{
+    text-align: center;
+    margin: 0px auto;
+    height: 10%;
+    width: 50%;
+    padding-top: 10px;
+}
+
+.icono {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    fill: #3584c7;
+}
+
+.icono svg {
+    width: 30px;
+    height: 30px;
+}
